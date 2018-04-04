@@ -1,0 +1,330 @@
+body, html{
+	margin: 0;
+	padding: 0;
+	line-height: 1.2rem;
+	font-family: Open Sans;
+}
+
+.br-red{
+	border:1px solid red;
+}
+
+.container{
+	/*border:1px solid red;*/
+	padding: 0;
+}
+
+/*navabr*/
+header{
+	padding-top: 2px;
+	height: 10vh;
+}
+
+.navbar-class ul{
+	float: right;
+	list-style-type: none;
+	display:inline-block;
+	margin-top: 16px;
+}
+
+.navbar-class li{
+	display: block;
+	text-align: center;
+	float: left;
+	padding: 6px 14px;
+}
+
+.navbar-class li a{
+	text-decoration: none;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 2vh;
+}
+
+.navbar-class ul li:hover{ 
+	border-bottom: 2px solid #FF3000;
+}
+
+.navbar-class ul a:hover{
+	color: #FF3000;
+}
+
+/*logo*/
+.logo{
+	display: inline-block;
+	padding-top: 4vh;
+	font-size:2.4rem;
+	color:#FF1600;
+	text-shadow: 1px 1px 2px #000;
+}
+
+i{
+	font-weight: lighter;
+	color: #fff;
+}
+
+/*showcase*/
+
+
+.bk-img{
+	background-image: url("../img/dispenser.jpeg");
+	height: 100vh;
+	background-position: top;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+/*.showcase p{
+	color: #fff;
+	font-size: 16px;
+	line-height: 1em;
+	margin-top: 170px;
+	text-align: center;
+	color:#FF1600;
+	text-shadow: 4px 1px 13px #000;
+}*/
+
+/*section2*/
+.section2{
+	padding: 20px 0px;
+}
+
+.sec{
+	padding-top:18px;
+}
+
+.img1 img{
+	padding: 0;
+	margin: 0;
+	height:50vh;
+	width: 87vh;
+	margin-bottom: 20px;
+	word-spacing: 0.7em;
+}
+
+.section2 h1{
+	text-align: center;
+}
+
+.text1{
+	padding-top: 30px;
+	font-size: 20px;
+	letter-spacing: 0.1em;
+	word-spacing: 0.2em;
+	line-height: 1.2em;
+}
+
+
+
+/*menu*/
+.menu{
+	background-color: #733522;
+	height: 35vh;
+}
+
+.menu-div{
+	text-align: center;
+}
+
+.menu-div p{
+	font-size: 5rem;
+	display: inline-block;
+	margin-top: 14vh;
+	padding: 0px 15px;
+	text-transform: uppercase;
+	font-family: impact;
+	color: #fff;
+}
+
+.menu-div a{
+	text-decoration: none;
+}
+
+.fixed{
+	position: fixed;
+	margin-bottom:12vh;
+}
+
+.menu-tabs{
+	position: sticky;
+	margin-left: 40vh;
+}
+
+/*contact us*/
+.contact{
+	background-color: #E6C9AC;
+	padding: 5vh;
+}
+
+.contact p{
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 5vh;
+	color: #1F1714;
+	padding-bottom: 3vh;
+}
+
+.contact form{
+	text-align: center;
+	width: 70vh;
+	margin: auto;
+	/*border:1px solid red;*/
+}
+
+hr{
+	width: 70%;
+	color:#1F1714;
+	height:3px; 
+}
+
+/*footer*/
+
+footer{
+	height:100px;
+	background-color: #1F1714;
+}
+
+footer p{
+	text-align: center;
+	padding-top: 25px;
+	font-size: 20px;
+	color: #FF1700;
+}
+
+/*menu page*/
+
+.menu-bg{
+	background-image: url("../img/girlmenu.jpeg");
+	width: 100%;
+	background-size:cover;
+	background-position:center;
+	background-attachment: fixed;
+	background-repeat:no-repeat;
+	height:100vh;
+}
+
+/*title bar*/
+.title{
+	text-align: center;
+	font-size: 9vh;
+	text-transform: uppercase;
+	color:#fff;
+	padding: 6vh;
+	border-bottom: 2px solid #fff;
+	border-bottom-style: dashed;
+	margin: auto;
+	width: 60%;
+	margin-bottom:20px; 
+}
+
+/*aside*/
+
+.list ul{
+	display: block;
+	line-height: 4rem;
+	padding: 0;
+}
+
+.list li{
+	list-style-type: none;
+	/*border:1px solid yellow;*/
+	padding-left: 15px;
+}
+
+.list li a{
+	text-decoration: none;
+	color: #fff;
+}
+
+.list li:hover{
+	border-left:2px solid #FF0700;
+}
+
+.list li a:hover{
+	color: #FF0700;
+}
+
+/*menu items*/
+.jumb-coffee{
+	background-image: url("../img/coffeebeans.jpeg");
+	background-position: center;
+	background-size: cover;	
+}
+
+
+.menu-list ul{
+	display: block;
+	padding: 0px;
+	line-height: 1.5em;
+}
+
+.menu-list li{
+	list-style-type: none;
+	text-transform: capitalize;
+}
+
+span{
+	float: right;
+}
+
+.font-pattern{
+	color: #fff;
+	font-size: 18px;
+	font-family: Trajan Pro;
+	font-style: italic;
+}
+
+.font-title{
+	border-bottom:1px solid #fff;
+	font-family: Brush Script Std;
+}
+
+.jumb{
+	background-image: url("../img/chocolatedarkcoffee.jpeg");
+	background-position: center;
+	background-size: cover;
+}
+
+.jumb-desert{
+	background-image: url("../img/chocolate1.jpeg");
+	background-position: center;
+	background-size: cover;
+}
+
+.jumb-snack{
+	background-image: url("../img/snack.jpeg");
+	background-position: center;
+	background-size: cover;
+}
+
+.jumb-meal{
+	background-image: url("../img/meal.jpg");
+	background-position: center;
+	background-size: cover;
+}
+
+/*dropdown button*/
+.dd-menu{
+	height:100px;
+}
+
+/*contact*/
+.left-img{
+	background-image: url("../img/door.jpeg");
+	height: 100vh;
+}
+
+.contact-us{
+	color: #fff;
+	float: left;
+	margin-left:50px;
+	margin-top:15vh;
+	font-size: 5vh;
+	line-height: 1.1em;
+}
+
+.contact-us h1{
+	color: 
+}
+
